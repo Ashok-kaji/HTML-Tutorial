@@ -1,0 +1,294 @@
+* HTML - HyperText Markup Language       Markup - Structure & formatting.
+
+* HTML file kya batata h ?? 
+---> ye batata h ki data ko kis tarike se present karna h. jaise button kaha par hoga, texts ka font kitna hoga,
+     photo kis tarike se dikhega etc. ye sab chije hme HTML batata h.
+
+* HTML Elements :- Standard Elements that browser recognizes.
+
+* HTML Tags :- The component used to design the Structure of websites are called html tags.
+
+* HTML Tags :- A container for some content or other tags.
+ eg:- <p> This is a paragraph </p> 
+     <opening tag> content </closing tag> ---> Element
+
+* <p> Element :- used to display related or connected content. cause a paragraph Element will display all the 
+                contents together.
+
+* html sirf tags ko pahchanta h, isliye tags ke bich me sare extra spaces aur lines ko wo ignore karta h.
+
+* Nesting :- ek tag ke under dusra tag likhna. Nested tags.
+
+* Heading tags ka font size by default set hota h by html isliye css se v hm heading tags ka font chnge nhi karte h.
+
+* Inspect in browser :- we can see the codes of webpages by Inspecting , and also can change there but that change 
+                    is temporary and only visible on browser not in code editor, and after refreshing page, original content will display.
+             
+* Inspect feature is very useful in cases when we want to see our webpages that how it looks when we do some changes.
+
+* HTML Boilerplate :- a piece of code which we have to write in each html file.
+
+                          <!DOCTYPE html>   --> using HTML 5 version.
+                          <html> 
+                                <head> all extra informations which is important but we don't show them on webpages.
+                                       <title> Name of the webpages. </title>
+                                </head>
+
+                                <body>
+                                        actual contents displaying on webpages.
+                                </body>
+                          </html>
+
+* Emmet :- short forms
+
+* ! :- shortcut for Boilerplate code in html.
+
+* <html lang="en"> --> means which Language we want to show on our webpages.
+
+* Meta informations :- wo informations jo data ke bare me hi h, aisi informations jo dikhayi nhi deti, but extra aa kar store ho jati h.
+
+* Indentation :- Proper spacing.  --> sign of good professional programmers.
+
+* list :- <ul> 
+               <li> </li>
+          </ul>
+
+          <ol> 
+              <li> </li>
+          </ol>
+
+* HTML Attributes :- Attributes are used to add more informations to the tag.   Attribute="value"
+
+* Anchor Element :- Used to add links to the webpages.     <a href="link"> google </a>   href :- HyperText Reference
+
+* Absolute link :- Internet ki links. waisi links jo Internet par hosted kisi chij se hme content karata h.
+* Relative link :- Apne system ki files ki links.
+
+* Image tag :- used to add images to webpages. - <img src="link" alt="image_alternative"> single tag.
+
+* image and html file should be in same folder.
+
+* index.html :- special name given to main html file in projects.
+
+* Br Tag :- Used to add next line to to your page.
+
+* <b>, <i> , <u> tags :- used to highlight text in your page.
+
+* Comments in HTML :- extra informations related to codes, but not the part actual code, and browser ignore comments.
+* Comments basically code padhne walo ke liye hota h, taki comments padh ke pta chal jaye ki code me kya hai.
+* comments in html :- <!-- comments -->
+
+* HTML is not case sensitive. <html> = <HTML>
+
+* Block Elements :- Wo Elements jinhe width ki jarurat ho ya na ho wo puri width ko occupy kar lete h. Strat from new line. Ex:- heading,paragraph.
+
+* Inline Elements :- ye Elements utni hi width lete h, jitni inko need h. and don't start from new line. Ex:- anchor,image.
+
+* Div Element (Content Division Element):- Iska basic kam h contents ko divide karna. Iska apna koi personal/internal functionality nhi hota h.
+---> Div is a container used to hold other HTML Elements or group Elements together.
+---> It is a block Element.
+
+* Hm koi complex website banate h to wo collection of divs ho jata h, qki bht sare Elements ko group karne ki jarurat hoti h.
+
+* Span Element:- Iski functionality bilkul Div Element wali h, aur iski apni koi personal/internal functionality nhi hoti h.
+---> Span is also a container used to hold other HTML Elements or group Elements together.
+---> It is an inline Element.
+
+* Hr tag (Horizontal rule Element):- webpage me ek Horizontal line draw karne ke liye. It is like a divider.
+
+* sup tag (Superscript tag) :- a^2 = a<sup>2</sup>
+* sub tag(SubScript tag) :- H2O = H<sub>2</sub>occupy
+
+* Semantic Markup :- It is the markup that relates to the "meaning of content".
+---> Semantic markup mtlb hme bas meaning se mtlb h.
+---> Semantic tags/Elements :- waise tags/Elements jinke name se hi pta chal jata h,ki inke under kis type ka content h.
+---> <h>, <img> , <p> etc.
+
+---> Non-Semantic tags :- waise tags jinke name se pta nhi chal pata ki inke under kya content h.
+---> <div>, <span> etc.
+
+* Achhi website Semantic markup ka use karti h.
+
+* Benefits of Semantic markup:- 1. meaningful/ layout-> Structured.
+                                2. SEO 
+                                3. readable/ screen readers --> UX improve.
+
+* Semantic tags:- 1. header -> most important content of a website.
+                  2. main -> webpage ka main content show karne ke liye, isme header,footer & navigation ko add nhi karte h.
+                  3. footer -> bottom part of the website, including contact details, other related websites.
+                  4.nav(navigation) -> current webpage se kisi dusre related webpages me jane ke liye nav tag ka use karte h. ye link 
+                                       hote h jise click karke hm kahi aur navigate ho jate h.
+                  5. article - can be used in multiple ways but act similar to other tags.
+                  6. section - to group together related contents.
+                  7. aside - used to group together indirectly related links to navigate to other webpages.
+
+* By default website par ek hi header,main & footer banaya jata h, aur main ke under chije repeat nhi karna chahiye.
+
+* HTML ek se jyada spaces ko kavi consider nhi karta h.
+
+* HTML entities :- 1. HTML entity is a piece of text("string") that begins with & and ends with ;
+                   2. Used to display reserved characters (which would otherwise interpreted as html code), and invisible characters(like non-breaking space)
+                   3. can also use in place of characters that are difficult to type with a Standard keyboard.
+                   4. browsers interpret them and renders correct characters.
+                   5. &Entity_names;
+                   6. Html entities ke entity_name ke sath ek character code (Unicode) v hota h, but we can't directly use unicode in 
+                      html file, so we need to convert that unicode into decimal version. ex:- &#9733
+
+* Abbreviation  :-  short form.
+
+* Emmet :- Emmet basically kya karta h ki, As a coder hme ek short form likhne ki jarurat h, aur Emmet automatically us chhote se code
+           ko ek bade code me convert kar dega.
+---> Emmet converts short form of codes into detailed form of codes. EX:- nav>ul>li, p>div+img(siblings).
+
+* HTML-5 :- 1. New features/upgrade in html.
+            2. other things/feature not part of html like Javascript API's to enhance storage , multimedia and hardware access.
+
+* How html works?? 
+---> html works with something called "html Standard/living Standard" - html Standard is a document that tells to the browser how html  should  work .
+---> To sare browsers ke pass html Standard which is a document rahta h jo browser ko batata h ki agar unhe koi html ka code dikhe to 
+     kaise us code se webpage/website banani h.
+
+* html code ---> browser (html Standard) ----> render webpages. this is how html code converted into webpage.
+
+* Tables in Html :- Tables are used to represent real life table data.
+
+* tr tag :- creates row in table. har ek individual row ke liye tr tag likhna padega.
+
+* td tag :- used to display table data.
+
+* th tag :- used to display table header.
+
+* Semantic tags in table :-     1. <thead> - to wrap table header.
+                                2. <tbody> - to wrap table body.
+                                3. <tfoot> - to wrap table footer.
+
+* span :- mtlb kitna area ghera jata h. yani ek cell kitna area occupy kar raha k table ke uper.
+
+* By default ek cell kitna span karta h :- 1 row and 1 column.
+
+* Colspan & Rowspan Attributes :- used to create cells which spans over multiple rows and columns.
+
+
+* Forms in HTML :- Forms are used to collect data from users.
+
+*  Action Attribute :- Action Attribute is used to define what action needs to be perfomed when a form is submitted,
+                       or where the form data should be sent.
+---> <form action="/action.php">
+---> action Attribute ya to kisi Javascript file ke pass redirect karega ya kisi aur file ke pass jo un data ke sath kuchh action perform karega.
+
+* Input Element :- 1. we use input Elements to  take different types of informations using different types of inputs.
+                   2. It is most important form Element.
+                   3. There are multiple types of inputs that can be created using type Attribute.
+
+* Type Attribute in Input Element:- 1. text
+                                    2. Password
+                                    3. number
+                                    4. time
+                                    5. color
+
+* Placeholder Attribute in input Element:- Placeholder ek aisa text hota h jo koi value enter karne se pahle hme dikhta h.
+---> isse pta chalta h ki input me kaun si value enter karna h.
+
+* Label Element :- Label Element represents a caption for an item in a user interface.
+                          <label> 
+                              Enter your username:
+                              <input type="text" Placeholder="Username">
+                          </label>
+
+* Id :- unique name of an Element.
+
+* Forms me Elements ke liye labeling karni padti h.
+
+* Label (Classical Approach):- <label for="username(id)"> Enter your username: </label>
+                               <input type="text" id="username" Placeholder="username">
+
+* <botton>submit</button> :- forms ke under sare ke sare buttons ka by default behaviour hota h form ke informations ko submit kara dena.
+                              aur action ke under jo v likhi h waha informations ko redirect kara dena.
+
+* Aur form ke bahar jo buttons hote h unka by default behaviour hota h kuchh v nhi.
+
+* type Attributes in Button:- 1. submit - submit the informations.
+                              2. button - normal button.
+                              3. reset - reset all entered informations.
+
+* Button using input :- 1. <input type="button" value="click me">   --> it won't do anything, just a noraml button.
+                        2. <input type="submit" value="Click Me">   --> it will submit the informations. ** not a good way to create button in form in html.
+
+* Name Attribute :- Jab v forms ke under se koi information submit ho kar jati h, wo information "name-value" ke pair me jati hai.
+---> To name ek Attribute hote h jise forms ke Elements ke sath define karna hota h, taki backend me ja kar ye pta chal sake ki is input box ke under
+    kya information enter huyi thi.
+---> to input box me hm jo v enter karenge, usko acces karne ke liye, usko refer karne ke liye, jis name ka hm istemal karenge,
+    use hm name Attribute ke under define karenge.
+---> To basically hota ye h ki, ek tarike se hm jo v information user se enter karwa rahe h, us information ko v ek name de dete h,
+     taki backed me us information ko pahchana ja sake aur access kiya ja sake. to input Element ko name Attribute dena jaruri h.
+
+* Checkbox in input :- to create check boxes in forms.
+---> <input type="checkobx" id="check" name="check">   ** checked Attribute for automatic check.
+---> <laber for="check"> I am 18+ </label>
+---> jab hm checkbox ko tick karke submit karte h to uska value= on pass hota h. otherwise koi info pass nhi hoti.
+
+ <div>
+      Select your subjects: 
+          <label for="math"> Math </label>
+          <input type="checkbox" name="subjects" id="maths" value="maths">
+          <label for="sceince"> sceince </label>
+          <input type="checkbox" name="subjects" id="sceince" value="sceince">
+          <label for="english"> english </label>
+          <input type="checkbox" name="subjects" id="english" value="english">
+
+</div>
+
+* Radio button me hm kisi ek hi option ko select kar sakte h, jabki checkbox me multiple option ko select kar sakte h.
+
+* radio button in form :- 
+---> multiple radio button ko hm group kar sakte using same name so that only one radio button will get select.
+
+          <div>
+
+          <label for="apple"> Apple </label>
+          <input type="radio" name="fruit" id="apple" value="Apple">
+          <label for="Mango"> Mango </label>
+          <input type="radio" name="fruit" id="Mango" value="Mango">
+          <label for="banana"> banana </label>
+          <input type="radio" name="fruit" id="banana" value="Banana">
+
+          </div>
+
+          ---> isme se koi ek hi radio button select ho sakta h, qki sabke name same karke hmne unhe group kar diya,
+               isliye ab ek hi value url ko pass hoga,that's why ek hi radio button select hoga.
+          ---> Buttons ki apni koi value nhi hoti h jo submit ke time name=value ke pair me jaye , uske liye hm value Attribute ka use karte hai.
+
+* Radio buttons ko group karne ke bad ek hi option select kar sakte h, but checkboxes ko group karne ke bad v multiple options ko 
+  select kar sakte h.
+
+* Select Element in form:- used to create a dropdown.
+
+                       <div>
+                            Choose your profession:
+                                                <select name="profession" id="profession">
+
+                                                <option> Select your option </option>
+                                                <option value="student" selected >student </option>
+                                                <option value="Employee">Employee </option>
+                                                <option value="developer">developer </option>
+                                                
+                                                </select>
+                       </div>
+
+                       ---> use "selected" Attribute in option to select any option automatically. 
+
+* Range input in forms:- to select something between given range.
+  
+                      <label for="vol"> Select your volume: > </label>
+                      <input type="range" id="vol" name="volume" min="0" max="100" step="5" value="50">
+                      ---> step Attribute means range 5 ki steps me increase/decrease hoga.
+                      ---> value Attribute means pahle se koi value fixed hogi. bad me isse change kar sakte h.
+
+* TextArea Element in form: to take text input, like feedback, comments etc.
+                        <label for="feedback"> Please provide your valuable feedback: </label>
+                        <textarea id="feedback" name="feedback" rows="5" cols="50"> </textarea>
+
+                        --> by default area of textarea = 2 rows & 10 columns.
+                        --> rows and cols to resize textarea.
+
+****** Label ko agar input ke pahle place karenge to wo input ke pahle display hoga , aur input ke bad place karne par input ke bad display hoga.************

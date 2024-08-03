@@ -1,0 +1,5 @@
+1. MDN :- A good resource for development, it is like a library. It is not official documentation.
+
+2. Emmet.io :- The essential toolkit for web developers. Preinstalled in vs code. Emmet-> documentation -> cheatsheet.
+
+3. 

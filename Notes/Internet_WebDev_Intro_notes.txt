@@ -1,0 +1,79 @@
+*  Problems - google, stack over flow.
+
+*  INTERNET - Interconnected network of computers around the world.
+
+*  In wi-fi what happens is - all computers around the world are Interconnected by wires or cables, and form
+   a network of computers, which allow them to communicate. wi-fi companies or INTERNET providers use cables
+   upto our home to bring INTERNET and let us connect with other computers, so that we can communicate with 
+   other computers.
+
+*   Hamare ghar par INTERNET ko lane ke liye hm cables ka use karte h. Isliye jab v wi-fi, router set-up hota h,
+    ya hme apne devices par INTERNET use karna hota h, to hmehsa bahar ki companies se ek cable aata h, jise ghar 
+    me joda jata hai. fir us cable se hm apne devices ko by wire or wirelessly connect karte hai , aur fir 
+    hm baki computers ke sath connect ho jate h, aur INTERNET use karne lagte h, yani baki computers ke sath 
+    communicate karne lagte hai.
+
+*   Server - a device or system whic is always online and serve other computers through INTERNET.
+
+*   Client - any device which ask information from server.
+
+*   IP Address - each & every computers connected to INTERNET having a unique Address called IP Address. And, due to this 
+    IP Address we know with which computer we are communicating. and all computers are trackable using IP Address
+    over INTERNET.
+
+*   IP Address is simply a Address of any Websites.
+
+
+**************************** HOW INTERNET works??  *****************************************
+
+ ----> 1.CLIENT                        2.ISP(Internet service Provider)                    3.DNS(Domain Name System)
+      (computer that want to use        (Provides Internet service                          (It is like a dictionary,
+      internet- search,browse)           Airtel, Jio,wi-fi companies)                        or address book-stores IP addresses
+                                                                                             of servers of all Domain names.)
+
+-----> Domain Name:- google.com, meta.com, It is the unique name of a website.
+-----> kisi v server se communicate karne ke liye hme pahle us server ka IP address chahiye hota h. aur wo IP address hme ISP dete hain.
+
+-----> Jaise hi hm kisi website ko search karte h, 
+                                                 1. To sabse pahle hmara request hmare ISP ko jata h. 
+                                                 2. Fir ISP us request ko DNS ke pas bhejte h.
+                                                 3. DNS us request ke server ki IP Address ISP ko return karta h.
+                                                 4. Then ISP us IP address ko client ko return karta h.
+                                                 5. Fir client sidha ek request bhejta h us IP address ko.
+                                                 6. Aur finally client sidha us server ke sath communicate kar pata h.
+
+************** What is WEB DEVELOPMENT ?? ****************
+
+----> Building websites for the INTERNET.
+
+----> Request - Response Cycle :- Hm jis v website ko apne browser me search karte hai......
+                                1. To us website ke server ko hm ek request send karte h.
+                                2. Fir wo Server hme ek Response send karta h, aur Response me server website nhi bhejta h, wo hme website
+                                   ki codes ka bundle(Html,css,JS) send karta h.
+                                3. Hme Response send karne ka mtlb ki hmare browser ko Response send karega aur fir hmara browser 
+                                   us code ke bundle ko ek pura website me convert karega hmare computer me,
+                                    aur fir hme apne browser me wo pura website dikhega.
+
+----> View Page Source:- we can see the Codes which server has sent to our browser, and browser converted that codes into a website.
+
+----> 1. HTML(structure)           2. CSS(styling)         3. JavaScript(Functionality)
+
+----> Frontend technologies:- HTML, CSS, JavaScript
+----> Frontend:- In request-Response cycle, client side(browser-request, code rendering-form change karke display karana.) is known as Frontend.
+----> To Frontend wo wala hissa hota h hmari website ka jiske sath hm interact kar pate h,Jo hme hmare browser ke uper dikhayi deta h, 
+      jiske under html,css and JavaScript hoti h.
+----> Backend:- In request-Response cycle, server side is known as Backend.
+
+********* Stack - stack means technologies. ***********
+
+----> Frontend - HTML, CSS, JavaScript, BOOTSTRAP, TAILWIND CSS
+
+----> Industry ke under sabse jyada plain CSS use hota h, uske bad frameworks use hote h.
+
+----> Backend - Express, NodeJs
+
+----> DataBase - SQL, MongoDB
+
+----> React
+
+----> VS Code - Free & Open Source code editor - Microsoft.

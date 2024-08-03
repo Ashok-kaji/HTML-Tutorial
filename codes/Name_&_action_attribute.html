@@ -1,0 +1,24 @@
+<!-- Here we will see how name attribute and action attribute in a html form works ??-->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search in Youtube</title>
+ </head>
+ <body>
+    <form action="https://www.youtube.com/results">   <!-- Action attribute will send the entered information to the given url(youtube search server)-->
+
+        <label for="youtube">Search in Youtube :</label> 
+        <input type="text" name="search_query" id="youtube" placeholder="Search in Youtbe"> <!-- name attribute refers to the youtube serach input box.-->
+        <button type="submit">Search</button>
+    </form>
+    <hr> 
+    <form action="https://www.google.com/search">
+        <label for="chrome"> Search in Chrome :</label>
+        <input type="text" name="q" id="chrome" placeholder="Search in chrome">
+        <button type="submit">Search</button>
+    </form>
+ </body>
+ </html>
